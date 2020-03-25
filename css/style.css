@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header start here */
+header{
+    overflow: hidden;
+    background-color: #121B2A;
+    padding: 8px 0 0 0;
+    box-shadow: 0 10px 10px #274963;
+
+}
+.wrapper {
+    width: 80%;
+   
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 20%;
+    
+    float: left;
+}
+.logo img{
+    width: 100%;
+
+}
+
+.menu {
+    width: 70%;
+    
+    float: right;
+    margin-top: 65px;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+
+
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+    padding: 0 20px;
+    display: block;
+
+}
+.menu ul li a:hover{
+    color: #0177BD;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+/* header end */
+
+/* banner start */
+.banner{
+    overflow: hidden;
+    background-image: url(/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+.b_content{
+    width: 50%;
+    margin-top: 250px;
+    margin-bottom: 100px;
+
+}
+.b_content h1{
+   font-family:sans-serif ;
+   font-weight: 250;
+   font-size: 40px;
+   color: white;
+
+}
+.b_content h2{
+    font-family:sans-serif ;
+   font-size: 45px;
+   color:  #0075B9;
+
+
+}
+.b_content p{
+    font-family:sans-serif ;
+   font-size: 20px;
+   color:white;
+   margin: 5px 0 10px;
+   line-height: 30px;
+
+
+}
+.b_content button{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #5A5A5A;
+    text-align: center;
+    padding: 1px 0 5px 15px;
+    transition: 0.5s;
+
+}
+
+.b_content button img{
+    width: 20px;
+    padding: 5px 9px 0 10px;
+    
+}
+.b_content button:focus{
+    outline: none;
+}
+.b_content button:hover{
+    color: #0075B9;
+}
+/*banner end */
+/* service section start*/
+.service{
+    overflow: hidden;
+    height: 425px;
+    background-color: #121B2A;
+
+}
+
+.servicewrapper{
+    height: 70%;
+    width: 80%;
+    margin: 50px auto;
+   
+}
+.service1{
+    
+    width: 28%;
+    float: left;
+   
+    
+
+}
+.service1 img{
+    float: left;
+    margin-right: 15px;
+    width: 12%;
+    
+
+}
+.service1 h1{
+    font-family: sans-serif;
+    color: white;
+
+}
+.service1 h2{
+    font-family: sans-serif;
+    color: #0075B9;
+
+}
+.service1 p{
+    font-family: sans-serif;
+    color: white;
+    line-height: 22px;
+    margin-top: 30px;
+
+}
+.service2{
+    
+    width: 28%;
+    float: left;
+    
+    margin-left: 108px;
+
+}
+.service2 img{
+    float: left;
+    margin-right: 15px;
+    width: 12%;
+    
+
+}
+.service2 h1{
+    font-family: sans-serif;
+    color: white;
+
+}
+.service2 h2{
+    font-family: sans-serif;
+    color: #0075B9;
+
+}
+.service2 p{
+    font-family: sans-serif;
+    color: white;
+    line-height: 22px;
+    margin-top: 30px;
+
+}
+.service3{
+    
+    width: 28%;
+    float: right;
+   
+
+}
+.service3 img{
+    float: left;
+    margin-right: 15px;
+    width: 12%;
+    
+}
+.service3 h1{
+    font-family: sans-serif;
+    color: white;
+    display: inline;
+
+}
+.service3 h2{
+    font-family: sans-serif;
+    color: #0075B9;
+    display: inline;
+
+}
+.service3 p{
+    font-family: sans-serif;
+    color: white;
+    line-height: 22px;
+    margin-top: 40px;
+
+}
+/*service section end */
+/* information part start */
+.information{
+    overflow: hidden;
+    height: 350px;
+    background-color: #040811;
+
+}
+.information1{
+    width: 28%;
+    float: left;
+   
+
+}
+.information1 h1{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+
+}
+.information1 h2{
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 150;
+    color: #0075B9;
+
+}
+.information1 address{
+    color: white;
+    line-height: 30px;
+
+}
+.information1 p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: white;
+}
+.information2{
+    width: 28%;
+    float: left;
+    
+    margin: 0px 0px 0 68px;
+
+
+}
+.information2 img{
+
+}
+.information2 h5{
+    font-family: sans-serif;
+    color: white;
+    margin: 0 0 0 16px;
+
+}
+.information2 a{
+    font-family: sans-serif;
+    color: #7A7B7E;
+    text-decoration: none;
+    margin: 0 0 0 16px;
+    transition: 0.5s;
+}
+.information2 a:hover{
+ color: #0075B9;
+}
+
+.information3{
+    overflow: hidden;
+    width: 28%;
+    float: right;
+    
+
+
+}
+.information3 h2{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    float: right;
+    margin-right: 190px;
+}
+.information3 h1{
+    font-weight: 200;
+    font-family: sans-serif;
+    color: #0075B9;
+    float: right;
+    margin: -170px 162px 8px 9px;
+
+}
+.information3 button{
+    float: right;
+    width: 52%;
+    border-radius: 7px;
+    margin: -138px 65px 0 0
+}
+.information3 button h1{
+
+}
+.information3 button img{
+    width: 18%;
+    float: left;
+    margin-top: -31px;
+}
+.information3 button:focus{
+    outline: none;
+}
+/* information part end */
+/*footer start */
+.footer{
+    overflow: hidden;
+    background-color: #121B2C;
+
+}
+.wrapper2{
+    overflow: hidden;
+    width: 70%;
+   
+    margin: 0 auto;
+    
+
+
+}
+.footermenu{
+    overflow: hidden;
+    width:60%;
+    float: left;
+    margin-top: 20px;
+
+
+}
+.footermenu ul{
+    list-style: none;
+    float: left;
+
+}
+.footermenu ul li{
+    float: left;
+
+
+}
+.footermenu ul li a{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+    padding: 0 20px;
+    display: block;
+
+}
+.footermenu ul li a:hover{
+    color: #0177BD;
+}
+.footermenu ul li:first-child a{
+    padding-left: 0;
+}
+
+.copyright{
+    color: white;
+    float: left;
+    margin: 20px 0 50px 0;
+}
+.copyright p{
+    margin: 34px -14px 5px -771px;
+}
+.logo1{
+    float: left;
+    margin: 32px 0 0 0px;
+}
+.logo2{
+    float: right;
+    margin: 32px 153px 0 0;
+}
+/*footer end */
