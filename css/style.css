@@ -327,6 +327,7 @@ header{
 
 }
 .information3 button{
+    background-color: white;
     float: right;
     width: 52%;
     border-radius: 7px;
@@ -388,7 +389,7 @@ header{
 
 }
 .footermenu ul li a:hover{
-    color: white;
+    color: #0177BD;
 }
 .footermenu ul li:first-child a{
     padding-left: 0;
